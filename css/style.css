@@ -1148,8 +1148,8 @@ header {
 }
 .header img {
   float: left;
-  width: 100px;
-  height: 30px;
+  width: 110px;
+ 
   background: none
   
   
@@ -1173,6 +1173,7 @@ header .navbar-brand {
   width: 100%;
   position: relative;
   padding: 0;
+  height: 40px;	
   
 }
 
@@ -2413,9 +2414,7 @@ display:none;
   }
 }
 
-#footer .copy-right {
-  padding-top: 4em;
-}
+
 
 #footer a {
   color: white;
