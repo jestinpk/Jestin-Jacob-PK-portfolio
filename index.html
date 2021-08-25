@@ -24,8 +24,11 @@
       <link rel="stylesheet" href="css/flexslider.css">
       <!--Main Styles Css-->
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
      
 
       <script src="js/jquery.min.js"></script>
@@ -167,7 +170,7 @@
              
        <!-- End About Section -->
 
-       <section id="about">
+       <section id="about" data-aos="fade-right" >
             <div class="container">
 
                <div class="row">
@@ -284,7 +287,7 @@
          End Resume Section -->
 
          <!-- Services Section -->
-            <section class=" bg-dark  services pt-5 " id="services">
+            <section class=" bg-dark  services pt-5 " id="services" data-aos="fade-up" >
             <div class="container">
                <div class="row">
                   <div class="col-md-8 col-md-offset-2 text-center heading">
@@ -388,7 +391,7 @@
          <!-- End Resume Section -->
          
          <!-- Counters Section -->
-         <section id="techniques">
+         <section id="techniques" data-aos="fade-up" >
          <div class="scroll-slider">
             <div class="wrap" >								 
             <div class="nbs-flexisel-container"><div class="nbs-flexisel-inner">
@@ -464,7 +467,7 @@
 
 
          <!-- Blog Section -->
-         <section id="blog" class="bg-section bg-dark">
+         <section id="blog" class="bg-section bg-dark" data-aos="fade-right" >
             <div class="container">
                <div class="row">
                   <div class="col-md-8 col-md-offset-2 text-center heading">
@@ -534,7 +537,7 @@
 
 
          <!-- Contact Section -->
-         <section id="contact" class="bg-light">
+         <section id="contact" class="bg-light" data-aos="fade-up">
             <div class="container">
                <div class="row">
                   <div class="col-md-8 col-md-offset-2 text-center heading">
@@ -664,6 +667,17 @@
 
          <!-- End Footer -->
       </div>
+           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+       offset: 280,
+       duration: 500
+    
+    });
+  </script>
+
+ 
+     
 
       <!-- jQuery -->
       <script src="js/jquery.min.js"></script>
